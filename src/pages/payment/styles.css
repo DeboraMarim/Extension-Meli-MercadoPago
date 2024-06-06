@@ -1,0 +1,58 @@
+.payment-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1em;
+    background: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .payment-container h2 {
+    margin-bottom: 1em;
+    color: #333;
+  }
+  
+  .payment-container .form-group {
+    margin-bottom: 1em;
+  }
+  
+  .payment-container .form-group label {
+    display: block;
+    margin-bottom: 0.5em;
+  }
+  
+  .payment-container .form-group input,
+  .payment-container .form-group select {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .payment-container button {
+    padding: 0.7em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1em;
+  }
+  
+  .payment-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .back-button {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    font-size: 1em;
+    margin-bottom: 1em;
+  }
+  
+  .back-button:hover {
+    text-decoration: underline;
+  }
+  
